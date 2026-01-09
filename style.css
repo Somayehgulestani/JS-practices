@@ -1,0 +1,23 @@
+#box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  button {
+    background-color: #4c6af5;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+    
+    
+  }
+#box{
+    text-align: center;
+}
