@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        #sign{
+            color: white;
+            background-color: blue;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        #formgeneral{
+            visibility: hidden;
+            background-color: #deb887;
+            width: 25%;
+            padding: 30px;
+            border: 2px solid #9b7543 ;
+
+        }
+
+        label{
+        
+            font-size: 18px;
+            font-weight: 600;
+
+        }
+        .value{
+            display: block;
+            padding: 8px;
+            width: 95%;
+            margin-bottom: 20px
+        }
+        .btn{
+            margin-top: 10px;
+            width: 100%;
+            padding: 10px;
+            background-color: black;
+            color: #FFF;
+            font-weight: 600;
+            border-radius: 30px;
+            border: none;
+        }
+
+        
+        #signup{
+            display: block;
+        }
+        small{
+            visibility: hidden;
+            color: red;
+        }
+        .correct > input {
+            border-color: green;
+        }
+       
+
+    </style>
+    
+</head>
+<body>
+    <input type="submit" value="Sign up" id="sign">
+    <div id="formgeneral">
+        <h1>Sign Up</h1>
+        <p>please fill in this form to creat an acount</p>
+        <form action="" id="form">
+            <div class="formdivs">
+            <label for="">Email</label> <br>
+            <input type="text" placeholder="Enter email" id="email" class="value">
+            <small></small>
+            </div>
+
+
+            <div class="formdivs">
+            <label for="">Password</label> <br>
+            <input type="password" placeholder="Enter password" id="pass" class="value">
+            <small></small>
+            </div>
+
+            <div class="formdivs">
+            <label for="">Repeat password</label> <br>
+            <input  placeholder="Repeat password" id="Repeatpass" class="value">
+            <small></small>
+            </div>
+
+            <input type="checkbox" for=" remember" id="checked">
+            <label for="" id="remember"> Remember me</label>
+
+            <button class="btn" id="signup"> sing up </button>
+            <button class="btn">cancel</button>
+
+
+           
+        </form>
+
+    </div>
+    
+<script src="form.js"></script>
+    
+</body>
+</html>
