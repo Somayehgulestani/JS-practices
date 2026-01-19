@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+             height: 100vh;
+           background: linear-gradient(135deg, #71b7e6, #9b59b6);
+        }
+        #cookie-popup {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #cookie-popup p {
+            margin: 0;
+        }
+
+        #cookie-popup button {
+            margin-top: 10px;
+            background-color: #16bb24;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: large;
+            cursor: pointer;
+        }
+
+        #cookie-popup button:hover {
+            background-color: #357ae8;
+        }
+       .show{
+    display: block;
+}
+
+    </style>
+</head>
+<body>
+     <div id="cookie-popup">
+        <p>
+            This website uses cookies to ensure you get
+            the best experience on our website.
+        </p>
+        <button id="got">
+            Got it!
+        </button>
+    </div>
+
+    <script src="cookiesms.js"></script>
+</body>
+</html>
